@@ -1,0 +1,91 @@
+HTML NOTES 
+
+1. Headings:
+
+    HTML headings are between h1 to h6.
+    "<h1>" for lagest heading
+    "<h2>"
+    "<h3>"
+    "<h4>"
+    "<h5>"
+    "<h6>" for smallest heading.
+
+2. Paragraph:
+    "<p>" tag for Paragraph.
+
+3. Break line:
+    "<br>" tag for break line . br tag have not ending tag.
+
+4. Horizontal ruler:
+    "<hr>" tag used for Horizontal ruler.
+
+5. Image:
+    "<img>" tag used for display image in broswer.
+    CODE:
+        <img src="1.png">
+    Size of image :
+        To give size of image we use "width" and "height" (in px)attributes.
+    CODE:
+        <img src='1.png' width='300px' height='200px'>
+
+6. Links in HTML
+    "<a>" tag is used to insert link of another in your website.
+    CODE:
+        <a href='home.html'>
+    Open page in new TAB:
+        <a href='home.html' target='_blank'>
+
+7. Form:
+    "<form>" tag is used to start form in html.
+    a. Input 'text':
+        <input type="text" placeholder="enter your name">
+
+    b. Input 'password':
+        <input type="password" placeholder="enter your password">
+
+    c. Input 'number':
+        <input type="number" placeholder="enter your age">
+
+    d. Input 'color':
+        <input type="color">
+
+    e. Input 'range':
+        <input type="range">
+
+    f. Input 'button':
+        <input type="button">
+
+    g. Input 'submit':
+        <input type="submit">
+
+    h. Input 'reset':
+        <input type="reset">
+
+    i. Dropdown:
+        <select>
+            <option selected>
+
+    j. checkbox:
+        <input type="checkbox">
+
+    k. textarea:
+        <input type="textarea" col="3" row="5"> 
+    
+8. Table
+    <table> tag is used to insert table in html.
+    <tr> for table row.
+    <th> for table head.
+    <td> for table data.
+    "colspan for merge number of columns "
+    "rowspan for merge number of rows "
+
+9. List in HTML"
+    a. Unorder list:
+        <ul> tag used for unorder list in html.
+    b. Order list:
+        <ol> tag used for order list in html.
+    c. list data:
+        <li> is used to insert list data in ul/ol
+
+10. Comments in HTML:
+    "<!--  -->" used for comment in html.

@@ -1,0 +1,10 @@
+Practice Questions:
+
+1. Write the HTML code to create an ordered list of your three favorite books.
+
+2. Create a form that asks for the user’s email and password, and includes a submit
+button.
+
+3. Design an HTML table that displays the names and ages of three friends.
+
+4. Write the HTML to display an image height=300 & width= 300 .
