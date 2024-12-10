@@ -1,0 +1,420 @@
+ //------------CSS NOTES------------//
+
+1    // css introduction
+2    // css Syntax
+3    // types of css
+4    // css selector
+5    // text styling
+6    // box Model
+7    // background
+7    // color
+8    // images
+9    // navigation 
+10    // buttons
+11    // links 
+12    // margin and padding 
+13    // display
+14    // float
+15    // position
+16    // Flexbox
+17    // Complete example a simple web page using html & css.
+
+
+
+1. What is CSS?
+    Ans. CSS (Cascading Style Sheets) is used to style and layout web pages. It allows for control over text styles, layout structures, colors, and more.
+
+    -------------------------
+// CSS Syntax
+
+    selector {
+    property: value;
+    }
+
+    //Example:
+
+    h1 {
+    color: blue;
+    font-size: 24px;
+    }
+    p {
+        color: black;
+    }
+
+    -------------------------
+// Types of CSS
+
+1. Inline CSS
+        Applied directly in the HTML element.
+
+    ```html
+    <p style="color: red;">This is red text.</p>
+    ```
+
+2. Internal CSS
+    Written within a `<style>` tag in the `<head>` section.
+    ```html
+    <style>
+        p {
+        color: green;
+        }
+    </style>
+    ```
+
+3. External CSS
+    - Written in a `.css` file and linked in the HTML.
+    ```html
+    <link rel="stylesheet" href="styles.css">
+    ```
+
+    -------------------------
+// CSS Selectors
+    Selectors target elements to apply styles.
+
+    1. Universal Selector
+    2. Type Selector
+    3. Class Selector
+    4. ID Selector
+    5. Group Selector
+    6. Child Selector
+
+
+1. Universal Selector
+    - Targets all elements. (*)
+
+    Examples:
+    ```css
+    * {
+       color: red;
+    }
+    ```
+
+    ```css
+    * {
+        background-color: black;
+    }
+    ```
+
+
+
+2. Type Selector (tag name)
+    - Targets specific tags.
+    
+    Example:
+    ```css
+    h1 {
+        color: blue;
+    }
+    ```
+    
+    ```css
+    p {
+        font-size: 30px;
+    }
+    ```
+
+
+3. Class Selector (.)
+    - Targets elements with a specific class.
+
+    Example:
+    ```html
+        <button class="btn">Home</button>
+    ```
+
+    ```css
+    .btn {
+        background-color: orange;
+    }
+    ```
+
+4. ID Selector (#)
+    - Targets an element with a specific ID.
+
+    Example:
+        ```html
+        <h1 id="title">this is my heading</h1>
+    ```
+
+    ```css
+    #title {
+        font-size: 20px;
+    }
+    ```
+
+5. Group Selector (,)
+    - Targets multiple elements.
+
+        ```html
+        <h1>This is my heading</h1>
+        <h5>This is my small heading</h5>
+        <p>This is my parapgraph</p>
+        ```
+    ```css
+    h1, h5, p{
+        color: red;
+    }
+    ```
+
+6. Child Selector
+        - Target child of a parent.
+        ```html
+        <ul>
+        <li>list 1</li>
+        <li>list 2</li>
+        </ul>
+        ```
+
+        ```css
+        ul li{
+        color: red;
+        }
+        ```
+
+    -------------------------
+// CSS Properties
+
+// Text Styling
+    ```css
+    p {
+    color: purple;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 1.5;
+    }
+    ```
+
+// Box Model
+    CSS Box Model includes content, padding, border, and margin.
+    ```css
+    div {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 20px;
+    }
+    ```
+
+    -----------------------------
+
+// Backgrounds in CSS:
+    You can set solid colors, images, gradients, and other effects as backgrounds.
+
+    // Examples:
+
+    ```css
+/* Background Color */
+    body {
+    background-color: lightgray;
+    }
+
+/* Background Image */
+    div {
+    background-image: url('example.jpg');
+    background-size: cover; /* Makes the image cover the entire element */
+    background-repeat: no-repeat; /* Prevents repetition */
+    }
+
+/* Background Gradient */
+    header {
+    background: linear-gradient(to right, red, yellow);
+    }
+    ```
+
+    ------------------------
+
+// Colors in CSS
+    CSS supports multiple color formats: named colors, HEX, RGB, RGBA, HSL, HSLA.
+
+    // Examples:
+    ```css
+/* Named Colors */
+    h1 {
+    color: red;
+    }
+
+
+/* HEX */
+    p {
+    color: #ff6347;
+    }
+
+
+/* RGB */
+    div {
+    background-color: rgb(255, 255, 0);
+    }
+
+
+/* RGBA */
+    span {
+    background-color: rgba(0, 0, 255, 0.5);
+    }
+    ```
+
+    --------------------------
+
+    ---
+
+// Images in CSS
+    You can style and position images using CSS.
+
+// Examples:
+    ```css
+    img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%; /* Makes the image circular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+    img:hover {
+    border: 2px solid red;
+    }
+    ```
+
+    --------------------------
+
+    ---
+
+// Buttons in CSS
+    Buttons can be styled to look modern and interactive.
+
+//  Examples:
+    ```css
+    button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+
+    button:hover {
+    background-color: #45a049;
+    }
+    ```
+
+
+    --------------------------
+
+// Links in CSS
+    Style links for different states.
+
+    // Examples:
+    ```css
+    a {
+    text-decoration: none;
+    color: blue;
+    }
+
+    a:hover {
+    color: red;
+    text-decoration: underline;
+    }
+
+    a:visited {
+    color: purple;
+    }
+    ```
+
+    --------------------------
+// MARGIN AND PADDING
+
+// Margins in CSS
+    Margins create space outside an element.
+
+// Examples:
+    ```css
+    div {
+    margin: 20px; /* Sets margin on all sides */
+    margin-top: 10px; /* Top margin */
+    margin-right: 15px; /* Right margin */
+    margin-bottom: 5px; /* Bottom margin */
+    margin-left: 0px; /* Left margin */
+    }
+    ```
+
+    ---
+
+// Padding in CSS
+    Padding creates space inside an element, between the content and the border.
+
+// Examples:
+    ```css
+    div {
+    padding: 15px; /* Sets padding on all sides */
+    padding-left: 20px; /* Left padding */
+    }
+    ```
+
+--------------------------
+// Navigations in CSS
+    You can style navigation bars with lists and links.
+
+// Examples:
+    ```css
+    nav {
+    background-color: #333;
+    }
+
+    nav ul {
+    list-style-type: none;
+    }
+
+    nav ul li {
+    float: left;
+    }
+
+    nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+    nav ul li a:hover {
+    background-color: #111;
+    }
+    ```
+
+
+    --------------------------
+
+// Layout and Positioning
+
+// Display
+
+    ```css
+    div {
+    display: flex; /* Block, Inline, Flex, Grid, None */
+    }
+    ```
+
+// Position
+
+    ```css
+    div {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    }
+    ```
+
+// Flexbox
+
+    ```css
+    .container {
+    display: flex;
+    justify-content: center; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+    gap: 10px;
+    }
+    ```
+
+    --------------------------------
