@@ -52,3 +52,52 @@ ul li{
 ul > li{
     /* background: #000; */
 }
+
+/* text styling in css */
+.textstyle{
+    color: aqua;
+    background-color: black;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    line-height: 30px;
+}
+
+/* box model */
+.parent{
+    background: #c45353;
+    width: 300px;
+    height: 400px;
+    border: 5px dotted blue;
+
+}
+.child1,.child2,.child3{
+    background: blue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 30px;
+}
+.solidbg{
+    background-color:  black;
+    width: 200px;
+    height: 200px;
+
+}
+.imagebg{
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+    background-image: url(./images/flower.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gradientbg{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, red,blue);
+}

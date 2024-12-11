@@ -19,7 +19,7 @@
 16    // Flexbox
 17    // Complete example a simple web page using html & css.
 
-
+    ---------------------------------
 
 1. What is CSS?
     Ans. CSS (Cascading Style Sheets) is used to style and layout web pages. It allows for control over text styles, layout structures, colors, and more.
@@ -188,6 +188,7 @@
     ```
 
 // Box Model
+
     CSS Box Model includes content, padding, border, and margin.
     ```css
     div {
