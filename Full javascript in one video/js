@@ -1,0 +1,278 @@
+JavaScript Notes with Practice Questions
+
+1. Introduction to JavaScript
+
+What is JavaScript?
+
+A lightweight, interpreted programming language.
+
+Used to make web pages interactive.
+
+Works on client-side (browser) and server-side (Node.js).
+
+How to Include JavaScript in HTML
+
+<script src="script.js"></script>
+<script>
+    console.log("Hello World");
+</script>
+
+Practice Questions
+
+Write a script to print "Hello, JavaScript!" in the console.
+
+Include an external JavaScript file in an HTML document.
+
+2. Variables and Data Types
+
+Variables
+
+Declared using var, let, and const.
+
+let age = 25;
+const name = "John";
+var isStudent = true;
+
+Data Types
+
+Primitive: string, number, boolean, undefined, null, symbol, bigint
+
+Non-Primitive: object
+
+Practice Questions
+
+Declare variables using let, const, and var. Assign different data types.
+
+Check the type of a variable using typeof.
+
+3. Operators
+
+Arithmetic Operators: +, -, *, /, %, **
+
+Comparison Operators: ==, !=, ===, !==, >, <, >=, <=
+
+Logical Operators: &&, ||, !
+
+Assignment Operators: =, +=, -=, *=, /=
+
+Practice Questions
+
+Write a script to add two numbers.
+
+Use comparison operators to compare two variables.
+
+4. Control Structures
+
+Conditional Statements
+
+if (condition) {
+    // code
+} else if (condition) {
+    // code
+} else {
+    // code
+}
+
+Switch Case
+
+switch (key) {
+    case value:
+        // code
+        break;
+    default:
+        // code
+}
+
+Loops
+
+For Loop: for (let i = 0; i < 10; i++) {}
+
+While Loop: while (condition) {}
+
+Do-While Loop: do { } while (condition)
+
+Practice Questions
+
+Write a script to find the largest of three numbers.
+
+Print numbers from 1 to 100 using a loop.
+
+Write a script that uses a switch case to output the day of the week.
+
+5. Functions
+
+Function Declaration
+
+function greet(name) {
+    return `Hello, ${name}`;
+}
+
+Function Expressions
+
+const add = function (a, b) {
+    return a + b;
+};
+
+Arrow Functions
+
+const multiply = (a, b) => a * b;
+
+Practice Questions
+
+Create a function that calculates the area of a rectangle.
+
+Write a function that checks whether a number is even or odd.
+
+6. Arrays
+
+Definition: Ordered list of values.
+
+const fruits = ["apple", "banana", "cherry"];
+
+Common Methods:
+
+push(), pop(), shift(), unshift(), slice(), splice()
+
+Practice Questions
+
+Add and remove elements from an array using push() and pop().
+
+Write a script to reverse an array.
+
+7. Objects
+
+Definition: Key-value pairs.
+
+const person = {
+    name: "John",
+    age: 30,
+    greet: function() {
+        return `Hello, I am ${this.name}`;
+    }
+};
+
+Practice Questions
+
+Create an object representing a car with properties like brand, model, and year.
+
+Add a method to an object that prints the object’s properties.
+
+8. DOM Manipulation
+
+Selecting Elements
+
+document.getElementById("id");
+document.querySelector(".class");
+
+Manipulating Elements
+
+const element = document.getElementById("demo");
+element.innerHTML = "Hello World!";
+
+Practice Questions
+
+Change the text of a paragraph using JavaScript.
+
+Add a new list item to an unordered list dynamically.
+
+9. Events
+
+Event Listeners
+
+document.getElementById("btn").addEventListener("click", function() {
+    alert("Button clicked!");
+});
+
+Practice Questions
+
+Create a button that changes the background color of the page when clicked.
+
+Add an event listener to a form that prevents submission and logs input values.
+
+10. Asynchronous JavaScript
+
+Promises
+
+const promise = new Promise((resolve, reject) => {
+    // async operation
+});
+promise.then(result => {}).catch(error => {});
+
+Async/Await
+
+async function fetchData() {
+    const response = await fetch("https://api.example.com");
+    const data = await response.json();
+    console.log(data);
+}
+
+Practice Questions
+
+Write a function that uses setTimeout to log a message after 3 seconds.
+
+Use fetch to retrieve data from an API and display it on the page.
+
+11. Error Handling
+
+Try-Catch
+
+try {
+    // code
+} catch (error) {
+    console.error(error);
+}
+
+Practice Questions
+
+Write a script that handles a division by zero error.
+
+Add error handling to a function that parses JSON data.
+
+12. ES6 Features
+
+Template Literals:
+
+const greeting = `Hello, ${name}!`;
+
+Destructuring:
+
+const { name, age } = person;
+
+Modules: import and export
+
+Practice Questions
+
+Use destructuring to extract values from an object.
+
+Create a module with a simple utility function.
+
+Advanced Topics (Optional)
+
+Classes
+
+class Person {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+    greet() {
+        return `Hello, my name is ${this.name}`;
+    }
+}
+
+Closures
+
+JavaScript Design Patterns
+
+Testing in JavaScript
+
+Practice Questions
+
+Write a class representing a student with methods for grading.
+
+Create a closure that maintains a counter.
+
+Conclusion
+
+By understanding these JavaScript fundamentals and practicing consistently, you’ll build a strong foundation for web development.
+

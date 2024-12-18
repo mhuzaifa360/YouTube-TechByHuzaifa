@@ -1,0 +1,185 @@
+// Javascript Notes
+
+    JavaScript Notes with Practice Examples
+
+    Introduction to JavaScript
+
+    JavaScript is a versatile programming language used for creating dynamic and interactive content on web pages. It can manipulate HTML, CSS, and respond to user actions.
+
+1. JavaScript Console
+
+    The console is a built-in tool in web browsers to execute JavaScript code and debug.
+
+    Example:
+
+    console.log("Hello, World!"); // Prints message to the console
+    console.error("This is an error message"); // Displays an error
+    console.warn("This is a warning"); // Displays a warning
+
+    Practice:
+
+    Log your name in the console.
+
+    Log a message, a warning, and an error.
+
+2. document.write()
+
+    document.write() writes content directly into the HTML document.
+
+    Example:
+
+    document.write("Hello, this is displayed on the webpage!");
+
+    Practice:
+
+    Use document.write() to display your favorite quote.
+
+3. alert()
+
+    The alert() method displays a popup with a message.
+
+    Example:
+
+    alert("Welcome to JavaScript!");
+
+    Practice:
+
+    Create an alert that displays "Good Morning".
+
+4. innerHTML
+
+    innerHTML changes or retrieves the HTML content of an element.
+
+    Example:
+
+    <div id="demo"></div>
+    <script>
+    document.getElementById("demo").innerHTML = "Hello, InnerHTML!";
+    </script>
+
+    Practice:
+
+    Create a <p> element and change its content using innerHTML.
+
+5. window.prompt()
+
+    prompt() creates a popup input box to collect user input.
+
+    Example:
+
+    let name = prompt("What is your name?");
+    alert("Hello, " + name + "!");
+
+    Practice:
+
+    Use prompt() to get the user's age and display a message with it.
+
+6. Variables
+
+    Variables store data values. Use var, let, or const to declare them.
+
+    Example:
+
+    let age = 25; // Using let
+    const pi = 3.14; // Using const
+    var name = "Ali"; // Using var
+
+    Practice:
+
+    Declare variables for your name, age, and favorite color.
+
+7. Simple Calculations
+
+    Perform calculations using arithmetic operators (+, -, *, /, %).
+
+    Example:
+
+    let num1 = 10;
+    let num2 = 5;
+    console.log(num1 + num2); // Addition
+    console.log(num1 * num2); // Multiplication
+
+    Practice:
+
+    Calculate the area of a rectangle using variables for width and height.
+
+8. Data Types
+
+    String
+
+    Represents text values.
+
+    let greeting = "Hello, World!";
+    console.log(greeting.length); // Length of string
+    console.log(greeting.toUpperCase()); // Uppercase string
+
+    Number
+
+    Represents numerical values.
+
+    let num = 123;
+    console.log(num + 1); // Addition
+
+    Boolean
+
+    Represents true or false values.
+
+    let isLoggedIn = true;
+    console.log(isLoggedIn);
+
+    Undefined
+
+    A variable without a value is undefined.
+
+    let value;
+    console.log(value); // undefined
+
+    Practice:
+
+    Work with strings: Concatenate your first and last name.
+
+    Create a boolean to check if a number is even.
+
+9. Arrays
+
+    Arrays store multiple values in a single variable.
+
+    Example:
+
+    let fruits = ["Apple", "Banana", "Cherry"];
+    console.log(fruits[0]); // Access first element
+    fruits.push("Mango"); // Add an element
+    console.log(fruits);
+
+    Practice:
+
+    Create an array of your favorite movies.
+
+    Add a movie to the list and print all movies.
+
+    10. Objects
+
+    Objects store properties and methods.
+
+    Example:
+
+    let person = {
+    name: "Ali",
+    age: 30,
+    greet: function() {
+        return "Hello, " + this.name;
+    }
+    };
+    console.log(person.greet());
+
+    Practice:
+
+    Create an object for a car with properties like brand, model, and year.
+
+    Add a method to display the car's details.
+
+    Additional Practice
+
+    Combine arrays and objects: Create an object with an array property.
+
+    Write a program that uses all the above topics in one script.
