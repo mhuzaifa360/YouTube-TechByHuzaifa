@@ -20,7 +20,6 @@
 
     Log your name in the console.
 
-    Log a message, a warning, and an error.
 
 2. document.write()
 
@@ -157,7 +156,7 @@
 
     Add a movie to the list and print all movies.
 
-    10. Objects
+10. Objects
 
     Objects store properties and methods.
 
