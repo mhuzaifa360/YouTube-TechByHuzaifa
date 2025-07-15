@@ -1,0 +1,60 @@
+
+()--------INTRO OF WEB DEVELOPMENT-----------()
+
+
+1. What is Web Development?
+Web development means creating websites or web applications.
+
+Every website you use (like YouTube, Google, or Facebook) is built by web developers.
+
+Developers write code to make websites functional and interactive.
+
+2. Types of Web Development
+Web development is divided into three main parts:
+
+a) Frontend Development
+This is the part of the website you see and interact with (e.g., buttons, forms, designs).
+
+Tools used: HTML, CSS, and JavaScript.
+
+b) Backend Development
+This is the part you don’t see. It includes servers, databases, and application logic.
+
+Tools used: Python, PHP, Ruby, or Node.js.
+
+c) Full Stack Development
+Full stack developers work on both frontend and backend.
+
+They can build complete websites.
+
+3. Tools and Technologies
+Here are some important tools used in web development:
+
+Text Editors: VS Code, Sublime Text, Atom.
+
+Browsers: Chrome, Firefox (for testing websites).
+
+Frameworks: React (frontend), Django (backend), Bootstrap (styling).
+
+Version Control: Git and GitHub (to manage code).
+
+4. How to Learn Web Development?
+Follow these steps to learn web development:
+
+Learn Basics: Start with HTML, CSS, and JavaScript.
+
+Practice: Build small projects like a portfolio website or a to-do list app.
+
+Learn Advanced Tools: Explore frameworks like React or Node.js.
+
+Build Real Projects: Create real-world projects to improve your skills.
+
+Key Takeaway
+Web development takes time to learn, but with consistency, you can succeed.
+
+Start small, practice regularly, and keep building projects.
+
+Next Video Preview
+In the next video, we’ll learn about HTML Basics.
+
+These notes summarize the video content in simple words. You can use them for quick revision or sharing with others! 😊
